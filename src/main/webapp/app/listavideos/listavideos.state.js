@@ -1,12 +1,12 @@
-/**
- * Created by X2382383C on 03/05/2017.
- */
 (function() {
     'use strict';
+
     angular
         .module('voess2App')
         .config(stateConfig);
+
     stateConfig.$inject = ['$stateProvider'];
+
     function stateConfig($stateProvider) {
         $stateProvider.state('listavideos', {
             parent: 'app',

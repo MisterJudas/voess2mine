@@ -1,11 +1,11 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>voess2</title>
     <meta name="description" content="">
-    <meta name="google" value="notranslate">
+    <meta name="google"> <!--value="notranslate"-->
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css content/css/vendor.css -->
@@ -17,19 +17,10 @@
     <!-- build:css content/css/main.css -->
     <link rel="stylesheet" href="content/css/main.css">
     <!-- endbuild -->
-    <script src="content/kelvinscript/home.js"></script>
-    <link rel="stylesheet" href="content/css/css_slider/demo.css">
-    <link rel="stylesheet" href="content/css/css_slider/style1.css">
-    <script src="content/kelvinscript/script_slider/modernizr.custom.86080.js"></script>
-
-    <!--Footer Links-->
-    <link rel="stylesheet" href="footer-distributed-with-contact-form.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-
-
 </head>
-<body ng-app="voess2App" ng-strict-di>
+
+
+<body ng-app="voess2App"> <!--ng-strict-di-->
     <!--[if lt IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -37,66 +28,11 @@
     <!--Aqui es donde estaba el lazo de la pagina principal que ponia in develoupment -> <page-ribbon></page-ribbon>-->
 
     <div ui-view="navbar" ng-cloak></div>
+
     <div class="container">
-            <div class="well transparente" ui-view="content">
-            <!-- Angular views kkkkkkkkkkkkkkkkkkkkkkk-->
-            </div>
+        <div class="well transparente" ui-view="content"></div>
+    </div>
 
-
-           <!-- <p data-translate="footer">This is your footer</p>-->
-        <div class="footer" ng-cloak>
-            <footer class="footer-distributed">
-                <div class="footer-left">
-                    <h3>Company<span>logo</span></h3>
-                    <p class="footer-links">
-                        <a href="#">Home</a>
-                        ·
-                        <a href="#">Blog</a>
-                        ·
-                        <a href="#">Pricing</a>
-                        ·
-                        <a href="#">About</a>
-                        ·
-                        <a href="#">Faq</a>
-                        ·
-                        <a href="#">Contact</a>
-                    </p>
-
-                    <p class="footer-company-name">Company Name &copy; 2015</p>
-                    <div class="footer-icons">
-
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-github"></i></a>
-
-                    </div>
-                </div>
-
-                <div class="footer-right">
-                    <p>Contact Us</p>
-                    <form action="#" method="post">
-                        <input type="text" name="email" placeholder="Email" />
-                        <textarea name="message" placeholder="Message"></textarea>
-                        <button>Send</button>
-                    </form>
-                </div>
-            </footer>
-
-</div>
-        </div>
-
-
-
-    <!-- Google Analytics: uncomment and change UA-XXXXX-X to be your site's ID.
-    <script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>-->
 
     <!-- build:js app/vendor.js -->
     <!-- bower:js -->
@@ -332,20 +268,11 @@
 
     <script src="app/games/Hearthstone/Hearthstone.state.js"></script>
     <script src="app/games/CounterStrikeGO/CounterStrikeGO.state.js"></script>
+    <script src="app/games/LeagueOfLegendsGame/LeagueOfLegendsGame.state.js"></script>
 
-    <!-- State y controller de lista de videos by kelvin 25/04-->
-    <script src="app/listavideos/listavideos.state.js"></script>
-    <script src="app/listavideos/listavideos.controller.js"></script>
 
     <!-- endinject -->
     <!-- endbuild -->
-    <ul class="cb-slideshow">
-        <li><span>Image 01</span><div><h3></h3></div></li>
-        <li><span>Image 02</span><div><h3></h3></div></li>
-        <li><span>Image 03</span><div><h3></h3></div></li>
-        <li><span>Image 04</span><div><h3></h3></div></li>
-        <li><span>Image 05</span><div><h3></h3></div></li>
-        <li><span>Image 06</span><div><h3></h3></div></li>
-    </ul>
+
 </body>
 </html>
