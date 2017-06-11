@@ -1,0 +1,36 @@
+#showcase{
+    text-align: center;
+    height: 350px;
+    background-color: #00b3ee;
+    padding-top: 10px;
+}
+.showcase-left, .showcase-middle, .showcase-right{
+    padding-top: 10px;
+    background-color: blue;
+    height: 200px;
+
+}
+#games_btn, #tournament_btn, #liveStream_btn{
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+}
+#games_btn:hover, #tournament_btn:hover, #liveStream_btn:hover{
+    background-color: #f9f9f9;
+}
+
+.dropdown-menu{
+    left: 50%;
+    right: auto;
+    text-align: center;
+    transform: translate(-50%, 0);
+
+}
+
+.dropdown-menu>#liveStream_btn{
+    width: 100%;
+}
+
+#liveStream_menu{
+    width: 100%;
+}
