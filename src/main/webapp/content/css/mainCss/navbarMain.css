@@ -1,9 +1,14 @@
 .navbar-default {
     background-color: #1c1c1c;
     border: 0;
-
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 .navbar-brand{
     font-size: 20px;
-    color: #E7E7E7 !important;
+    color: #f1f1f1 !important;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.navbar-brand:hover, #navbar_buttons:hover, #login:hover, #logout:hover, #nav_language:hover, #nav_register:hover, #nav_home_icon:hover{
+    color: #FEC503 !important;
 }
