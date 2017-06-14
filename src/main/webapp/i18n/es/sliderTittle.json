@@ -1,5 +1,13 @@
 {
+    "voess2App": {
     "slider": {
-        "tournaments.title": "Videojuegos"
+        "control": {
+            "videogames": "Videojuegos",
+            "tournaments": "Torneos",
+            "Home": "Home",
+            "Live Streams": "Streams en directo",
+            "Database": "Base de datos"
+        }
     }
+}
 }

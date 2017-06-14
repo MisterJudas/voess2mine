@@ -1,5 +1,14 @@
 {
-    "slider": {
-        "tournaments.title": "Videogames"
+    "voess2App": {
+        "slider": {
+            "control": {
+                "videogames": "Videogames",
+                "tournaments": "Tournaments",
+                "Home": "Home",
+                "Live Streams": "Live Streams",
+                "Database": "Database"
+            }
+        }
     }
 }
+
