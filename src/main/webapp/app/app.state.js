@@ -15,8 +15,22 @@
                     templateUrl: 'app/layouts/navbar/navbar.html',
                     controller: 'NavbarController',
                     controllerAs: 'vm'
+                },
+
+                'belowSlider@':{
+                    templateUrl: 'app/layouts/belowSlider/belowSlider.html',
+                    controller: 'BelowSliderController',
+                    controllerAs: 'vm'
+                },
+
+                'footer@': {
+                    templateUrl: 'app/layouts/footer/footer.html',
+                    controller: 'FooterController',
+                    controllerAs: 'vm'
                 }
+
             },
+
             resolve: {
                 authorize: ['Auth',
                     function (Auth) {
